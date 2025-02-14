@@ -166,8 +166,6 @@ System Design Key Concepts
 14. Distributed Tracing
 
 
-System Design Building Blocks
-------------------------------
 1. Content Delivery Network (CDN)
 2. Proxy vs Reverse Proxy
 3. Domain Name System (DNS)
