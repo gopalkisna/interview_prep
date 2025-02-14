@@ -81,6 +81,8 @@ Spring Boot
     6. Bean Life Cycle
     7. Bean Scopes
     8. Starters, starter-parent, Dependency Management, BOM
+    9. Scheduler/Timer
+    10. Transactional
 
 
 
@@ -106,27 +108,29 @@ High level design
     8. Design ecommerce
 
 
+
 Low level design
------------------------------------------------------------------
+-----------------------------------
     1. Amazon Prime Video Design
     2. Custom Hashmap
     3. Design cache functionality
     4. Elevator design
     5. Vending machine
     6. Parking lot
+    7. Concurrent bookings
 
 
 
 sql vs no-sql
------------------------------------------------------------------
+------------------------------------
     1. ACID properties
     2. Isolation levels
     3. CAP theorem
-    4. Index
+    4. Clustered vs Non-Clusteres Indexes
 
 
 Algos and DS
------------------------------------------------------------------
+-------------------------------------
 DS/Algos:
     1. Binary Search
     2. BFS/DFS
@@ -206,3 +210,16 @@ System Design Tradeoffs
 9. REST vs RPC
 10. Synchronous vs. asynchronous communications
 11. Latency vs Throughput
+
+
+Salesforce Scaler guy feedback and comments
+    Engineering blogs
+    Reading text books
+    Scaler index of things
+
+    Referrals
+    Ownership and getting the things done..
+    DS Algo regular practice
+    Learn Trie
+    Go thru the JDs on the roles
+    Skills of approaching 
