@@ -23,10 +23,11 @@ Core Java
     21. Mutex, Semaphores
     22. Comparator vs Comparable
     23. Java Memory model  
-    24. What is JIT 
-    25. Collection Framework
-    26. Fail safe vs fail fast
-    27. Runnable vs Callable
+    24. Collection Framework
+    25. Fail safe vs fail fast
+    26. Runnable vs Callable
+    27. JVM Internals
+    28. StringBuilder vs StringBuffer
 
 Java 8
 -----------------------------------------------------------------
