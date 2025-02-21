@@ -128,22 +128,22 @@
 % -------------------------------------
 % ----------ORGANIZATIONS-----------
 % -------------------------------------
-\section{Organizations}
-   \resumeSubHeadingListStart
-     \resumeProjectHeading
-           {\titleItem{{Software Engineer 4/Lead Engineer}} 
-           $|$ \emph{ \textbf{Candescent FKA NCR Corporation }\href{https://www.candescent.com/} \faExternalLinkSquare}}{Sep 2020 - Present}  
+% \section{Organizations}
+%    \resumeSubHeadingListStart
+%      \resumeProjectHeading
+%            {\titleItem{{Software Engineer 4/Lead Engineer}} 
+%            $|$ \emph{ \textbf{Candescent FKA NCR Corporation }\href{https://www.candescent.com/} \faExternalLinkSquare}}{Sep 2020 - Present}  
         
-    \resumeProjectHeading
-           {\titleItem{{Senior Software Engineer}} $|$ \emph{ \textbf{Lowe's India }\href{https://lowes.co.in/} \faExternalLinkSquare}}{Mar 2015 -- Sep 2020}     
+%     \resumeProjectHeading
+%            {\titleItem{{Senior Software Engineer}} $|$ \emph{ \textbf{Lowe's India }\href{https://lowes.co.in/} \faExternalLinkSquare}}{Mar 2015 -- Sep 2020}     
 
-  \resumeProjectHeading
-           {\titleItem{{Technical Consultant Intermediate}} $|$ \emph{ \textbf{JDA Software  NKA Blue Yonder }\href{https://blueyonder.com/} \faExternalLinkSquare}}{Aug 2010 -- Mar 2015}     
+%   \resumeProjectHeading
+%            {\titleItem{{Technical Consultant Intermediate}} $|$ \emph{ \textbf{JDA Software  NKA Blue Yonder }\href{https://blueyonder.com/} \faExternalLinkSquare}}{Aug 2010 -- Mar 2015}     
 
-  \resumeProjectHeading
-{\titleItem{{Programmer Analyst}} $|$ \emph{ \textbf{Cognizant Technology Solutions }\href{https://www.cognizant.com/in/en} \faExternalLinkSquare}}{Feb 2009 -- Aug 2010}     
-  \resumeSubHeadingListEnd
- \resumeProjectHeading
+%   \resumeProjectHeading
+% {\titleItem{{Programmer Analyst}} $|$ \emph{ \textbf{Cognizant Technology Solutions }\href{https://www.cognizant.com/in/en} \faExternalLinkSquare}}{Feb 2009 -- Aug 2010}     
+%   \resumeSubHeadingListEnd
+%  \resumeProjectHeading
 
 
 
@@ -153,7 +153,8 @@
 \section{Work Experience}    
 \resumeSubHeadingListStart
    \resumeProjectHeading
-       {\titleItem{Candescent FKA NCR Corporation  \href{https://www.candescent.com/} \faExternalLinkSquare} \emph{$|$ Spring Boot, JDK 17, Postgres, Redis}}{Sep 2020 - Present, Bengaluru}
+       {\titleItem{Candescent FKA NCR Corporation  \href{https://www.candescent.com/} \faExternalLinkSquare} \emph{$|$ Spring Boot, JDK 17, Postgres, Redis}}{Sep 2020 - Present, Bengaluru}\\
+     {\resumeItem{{Software Engineer 4/Lead Engineer}} }  
     \resumeItemListStart
        \resumeItem{Spearheaded an highly available, scalable cloud native microservices which got deployed to GKE with an increased tps by 25\%.}
       \resumeItem{Implemented dynamic front end react components with reusable code and added form preview functionality which increased customer satisfaction score by 25\%.}
@@ -162,6 +163,7 @@
     \resumeItemListEnd    
       \resumeProjectHeading
        {\titleItem{Lowe's India   \href{https://lowes.co.in/} \faExternalLinkSquare} \emph{$|$ Spring Boot, Google Cloud Spanner, JDK 1.8, Angular JS, DB2}}{Mar 2015 - Sep 2020, Bengaluru}
+       {\resumeItem{{Senior Software Engineer }} }
     \resumeItemListStart
         \resumeItem{Spearheaded custom rule engine which helped organization not to incur margin loss for promotional items across all selling
 channels and flexible system with an improved efficiency of 50\%.}
@@ -172,6 +174,7 @@ communication with downstream systems - supply chain, logistics.}
 
      \resumeProjectHeading
        {\titleItem{JDA Software NKA Blue Yonder \href{https://blueyonder.com/} \faExternalLinkSquare} \emph{$|$ JSP, Servlets, Java 1.5, Oracle}}{Aug 2010 - Mar 2015, Bengaluru} \\  
+       {\resumeItem{{Technical Consultant Intermediate}} }
     \resumeItemListStart
             \resumeItem{Spearheaded customer preferences management which helped to send accurate marketing emails which in turn increased the store foot print and inquiries by 25\%.}
             \resumeItem{Engineered return order management and nearby stores modules which enabled customers to buy/return products
@@ -181,6 +184,7 @@ seamlessly from any channels.}
 
      \resumeProjectHeading
        {\titleItem{Cognizant Technology Solutions \href{https://www.cognizant.com/in/en} \faExternalLinkSquare} \emph{$|$ JSP, Servlets, Java 1.5, DB2}}{Feb 2009 - Aug 2010, Bengaluru} \\  
+       {\resumeItem{{Programmer Analyst}} }
     \resumeItemListStart
     \resumeItem{Engineered features to add customer preference attributes which helped Fujitsu POS systems to capture more details about customer and in turn assisted retailers to do targeted marketing to improve sales, store footprints.} \resumeItemListEnd
     
