@@ -1,0 +1,281 @@
+%------------------------------------------------------------------------------
+% Resume in Latex
+% Author : Gopala Krishna
+%------------------------------------------------------------------------------
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{amsmath}
+\usepackage{soul}
+\input{glyphtounicode}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+% \usepackage{ulem}
+\usepackage[normalem]{ulem}
+
+% Fonts
+\usepackage[default]{sourcesanspro}
+
+% Page Setup
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-5pt}\scshape\raggedright\fontsize{16}{18}\selectfont
+}{}{0em}{}[\color{black}\titlerule \vspace{-4pt}]
+
+\pdfgentounicode=1
+
+\def\spaceforrole{ }
+\definecolor{lightyellow}{cmyk}{0.00, 0.05, 0.20, 0.00} % Highlights
+\sethlcolor{lightyellow} % Highlights
+
+\newcommand{\sectionspace}{
+\vspace{-15pt}
+}
+
+\newcommand{\subheadingtitlevspace}{
+\vspace{-3pt}
+}
+
+\newcommand{\resumeItem}[1]{
+  \item{
+  {\fontsize{11}{13}\selectfont #1 \vspace{1pt}}
+  }
+}
+
+\newcommand{\titleItem}[1]{
+  {\fontsize{12}{14}\selectfont \textbf{#1}} \vspace{3pt}
+}
+
+\newcommand{\technicalContent}[1]{
+  {\fontsize{11}{13}\selectfont #1} % Adjusted font size for technical content
+}
+
+
+
+\newcommand{\highlight}[1]{
+  \textsl{\textbf{#1}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+  \begin{tabular*}{0.97\textwidth}[t]{@{}l@{}}
+    \textbf{#1} \\
+    #2 \\
+    \titleItem{#3} \\
+    \textit{#4}
+  \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{#1} & \textit{#2} \\
+    \end{tabular*}\vspace{-2pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & \textit{ #2} \\
+    \end{tabular*}\vspace{-9pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\subheadingtitlevspace\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\newcommand{\resumeItemListStart}{
+\begin{itemize}}
+\newcommand{\resumeItemListEnd}{
+\end{itemize}\vspace{-8pt}}
+
+\begin{document}
+
+\begin{flushleft}
+    \textbf{\huge Gopala Krishna} \\[4pt]
+    \href{tel:+919886868349}{{\faPhone\ \textit{+91-9886868349}}} \hspace{1pt} $|$ \hspace{1pt}
+    \href{mailto:techwith.gopala@gmail.com}{{\faEnvelope\ \textit{techwith.gopala@gmail.com}}} \hspace{1pt} $|$ \hspace{1pt}
+    \href{https://www.linkedin.com/in/gopalkisna/}{\faLinkedin\ \textit{Linkedin}} \hspace{1pt} $|$ \hspace{1pt}
+    \href{https://github.com/gopalkisna}{\faGithub\ \textit{GitHub}} \hspace{1pt} $|$ \hspace{1pt}
+    \href{https://leetcode.com/u/gopalkisna/}{\faCode\ \textit{ Leetcode}} \hspace{1pt} $|$ \hspace{1pt}
+    \faMapMarker \ \textit{Bengaluru, India} 
+    \vspace{-6pt}
+\end{flushleft}
+
+
+% -------------------------------------
+%----------PROJECTS--------------------
+% -------------------------------------
+\section{Work Experience}    
+\resumeSubHeadingListStart
+   \resumeProjectHeading
+       {\titleItem{Candescent FKA NCR Corporation  \href{https://www.candescent.com/} \faExternalLinkSquare} \emph{$|$ Spring Boot, JDK 17, Postgres, Redis}}{Sep 2020 - Present, Bengaluru}
+    \resumeItemListStart
+       \resumeItem{Spearheaded an highly available, scalable cloud native microservices which got deployed to GKE and increased tps by 25\%.}
+      \resumeItem{Implemented dynamic front end react components with reusable code and added form preview functionality which increased customer satisfaction score by 25\%.}
+      \resumeItem{Mentored scrum team of 4 developers to build new financial institution dynamic forms application and pushed the team towards building quality software by constructively pointing out opportunities to reduce complexity to write cleaner code and more effective tests. }
+       
+    \resumeItemListEnd    
+      \resumeProjectHeading
+       {\titleItem{Lowe's India   \href{https://lowes.co.in/} \faExternalLinkSquare} \emph{$|$ Spring Boot, Google Cloud Spanner, JDK 1.8, Angular JS, DB2}}{Mar 2015 - Sep 2020, Bengaluru}
+    \resumeItemListStart
+        \resumeItem{Spearheaded custom rule engine which helped organization not to incur margin loss for promotional items across all selling
+channels and flexible system with an improved efficiency of 50\%.}
+        \resumeItem{Enforced an innovative approach to reap 40\% more revenue for each category because of better planning and
+communication with downstream systems - supply chain, logistics.}
+ \resumeItem{Actively increased awareness of clean code and adopted static code analysis tools to mitigate vulnerable code.}
+    \resumeItemListEnd
+
+     \resumeProjectHeading
+       {\titleItem{JDA Software NKA Blue Yonder \href{https://blueyonder.com/} \faExternalLinkSquare} \emph{$|$ JSP, Servlets, Java 1.5, Oracle}}{Aug 2010 - Mar 2015, Bengaluru} \\  
+    \resumeItemListStart
+            \resumeItem{Spearheaded customer preferences management which helped to send accurate marketing emails which in turn increased the store foot print and inquiries by 25\%.}
+            \resumeItem{Engineered return order management and nearby stores modules which enabled customers to buy/return products
+seamlessly from any channels.}
+        
+    \resumeItemListEnd
+
+     \resumeProjectHeading
+       {\titleItem{Cognizant Technology Solutions \href{https://www.cognizant.com/in/en} \faExternalLinkSquare} \emph{$|$ JSP, Servlets, Java 1.5, DB2}}{Feb 2009 - Aug 2010, Bengaluru} \\  
+    \resumeItemListStart
+    \resumeItem{Engineered features to add customer preference attributes which helped Fujitsu POS systems to capture more details about customer and in turn assisted retailers to do targeted marketing to improve sales, store footprints.} \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+  
+% -------------------------------------
+%----------ORGANIZATIONS-----------
+% -------------------------------------
+% \section{Organizations}
+%    \resumeSubHeadingListStart
+%      \resumeProjectHeading
+%            {\titleItem{{Software Engineer 4/Lead Engineer}} 
+%            $|$ \emph{ \textbf{Candescent FKA NCR Corporation }\href{https://www.candescent.com/} \faExternalLinkSquare}}{Sep 2020 - Present}  
+        
+%     \resumeProjectHeading
+%            {\titleItem{{Senior Software Engineer}} $|$ \emph{ \textbf{Lowe's India }\href{https://lowes.co.in/} \faExternalLinkSquare}}{Mar 2015 -- Sep 2020}     
+
+%   \resumeProjectHeading
+%            {\titleItem{{Technical Consultant Intermediate}} $|$ \emph{ \textbf{JDA Software  NKA Blue Yonder }\href{https://blueyonder.com/} \faExternalLinkSquare}}{Aug 2010 -- Mar 2015}     
+
+%   \resumeProjectHeading
+% {\titleItem{{Programmer Analyst}} $|$ \emph{ \textbf{Cognizant Technology Solutions }\href{https://www.cognizant.com/in/en} \faExternalLinkSquare}}{Feb 2009 -- Aug 2010}     
+%   \resumeSubHeadingListEnd
+  
+% -------------------------------------
+%----------TECHNICAL SKILLS------------
+% -------------------------------------
+\section{Technical Skills}
+\subheadingtitlevspace
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    {\item
+    {
+     \titleItem{Languages} \technicalContent{ : Java, JavaScript, HTML, CSS, SQL (Oracle, MySQL, PostgreSQL, DB2) , No-SQL (MongoDB, Couchbase, Neo4j)} \\
+\titleItem{Cloud Platforms} \technicalContent{ : Google Cloud Platform} \\
+\titleItem{Frameworks \& Library} \technicalContent{ : Spring Core, Spring MVC, Spring Reactive, Spring Boot, Spring Security, Log4j, Logback, Hibernate, Bootstrap, React.js , Angular JS, React Redux} \\
+\titleItem{Messaging Queues \& Libraries} \technicalContent{ : Apache Kafka, Rabbit MQ, Google Pub/Sub} \\     
+     \titleItem{Developer and API Tools} \technicalContent{ : Git, GitHub, GitOps, Prometheus, Grafana, ArgoCD, Spinnaker, Docker, Kubernetes, Postman, Swagger, Jira, IntelliJ IDEA }\\ 
+\titleItem{Others}
+\technicalContent{: Gen-AI, Apache Spark, Hadoop, Design Patterns, Rest API standards, Agile,Object Oriented Design, Microservices patterns, CI / CD, Problem solving, Maven, Gradle, Data Structures and Algorithms }
+
+}
+    
+ \end{itemize}
+
+
+
+% -------------------------------------
+%----------PROJECTS--------------------
+% -------------------------------------
+\section{Projects}    
+\resumeSubHeadingListStart
+        
+      \resumeProjectHeading
+       {\titleItem{Dynamic Forms Automation } \emph{$|$ Application that enables financial institutions to enable online forms in real time}.}{}
+        \resumeProjectHeading
+       {\titleItem{Purchase Rewards } \emph{$|$ Reward program tool management for every purchase made by the financial institutions  users.}}{}
+        \resumeProjectHeading
+       {\titleItem{Centralized Promo Management, Rule Engine } \emph{$|$ Unified rule engine to apply stacking rules across multiple channels.}}{}
+        \resumeProjectHeading
+       {\titleItem{Rotational Space Management } \emph{$|$ Efficient flexible space management within each stores to improve sales.}}{}
+        \resumeProjectHeading
+       {\titleItem{Order Management System } \emph{$|$ Enables retailers to manage all orders captured across multiple channels.}}{}
+        \resumeProjectHeading
+       {\titleItem{Customer relationship management } \emph{$|$  Helped POS systems to capture
+more details about customer to improve sales.}}{}
+    
+  \resumeSubHeadingListEnd
+
+% -------------------------------------
+%---------EDUCATION---------------------
+% -------------------------------------
+
+
+\section{Education}
+\resumeSubHeadingListStart
+    \item
+    \begin{tabular*}{0.97\textwidth}[t]{@{}l@{\extracolsep{\fill}}r}
+      \textbf{PES Institute of Technology, VTU, Bengaluru,  India} & \textit{May 2005 -- Aug 2008} \\
+          Bachelor of Engineering in Computer Science 
+    \end{tabular*}\vspace{-8pt}
+\resumeSubHeadingListEnd
+
+
+% -------------------------------------
+%----------AWARDS---------------------
+% -------------------------------------
+
+ \section{Awards}
+    \resumeSubHeadingListStart
+
+  \resumeProjectHeading
+{\titleItem{High Five Award, 2022-2023 } \emph{ $|$ Candescent FKA NCR Corporation, Bengaluru }}{}
+           
+ \resumeProjectHeading
+{\titleItem{Cheers Award, 2021-2022 } \emph{ $|$ Candescent FKA NCR Corporation, Bengaluru }}{}
+
+  \resumeProjectHeading
+{\titleItem{Thank you award, 2018-2019  } \emph{ $|$ Lowe's India }}{}
+           
+  \resumeProjectHeading
+{\titleItem{Lowe's Champion award, 2017-2018 } \emph{ $|$ Lowe's India }}{}
+
+\resumeProjectHeading
+ {\titleItem{Bragging Rights award, 2016-2017 } \emph{ $|$ Lowe's India }}{}        
+
+\resumeProjectHeading
+{\titleItem{GEM award, 2009-2010 } \emph{ $|$ Cognizant Technology Solutions.}}{}
+ \resumeSubHeadingListEnd
+ 
+\section{Certificates}
+     \resumeSubHeadingListStart
+\resumeProjectHeading
+{\titleItem{Architecting with Google Kubernetes Engine:
+Foundations, 10/2019 \href{https://www.linkedin.com/in/gopalkisna/details/featured/1572181643098/single-media-viewer/?profileId=ACoAAAPrQSgBD0Ujw-TMKGh8dVtWdzM0Eu5dCiY} \faExternalLinkSquare } \emph{ $|$ Coursera }}{}
+
+ \resumeProjectHeading
+{\titleItem{Google Cloud Platform Introduction course, 07/2019 \href{https://www.linkedin.com/in/gopalkisna/details/featured/1567231298712/single-media-viewer/?profileId=ACoAAAPrQSgBD0Ujw-TMKGh8dVtWdzM0Eu5dCiY} \faExternalLinkSquare } \emph{ $|$ Coursera }}{}
+\resumeSubHeadingListEnd
+
+
+\end{document}
