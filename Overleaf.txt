@@ -124,6 +124,29 @@
 \end{flushleft}
 
 
+  
+% -------------------------------------
+% ----------ORGANIZATIONS-----------
+% -------------------------------------
+\section{Organizations}
+   \resumeSubHeadingListStart
+     \resumeProjectHeading
+           {\titleItem{{Software Engineer 4/Lead Engineer}} 
+           $|$ \emph{ \textbf{Candescent FKA NCR Corporation }\href{https://www.candescent.com/} \faExternalLinkSquare}}{Sep 2020 - Present}  
+        
+    \resumeProjectHeading
+           {\titleItem{{Senior Software Engineer}} $|$ \emph{ \textbf{Lowe's India }\href{https://lowes.co.in/} \faExternalLinkSquare}}{Mar 2015 -- Sep 2020}     
+
+  \resumeProjectHeading
+           {\titleItem{{Technical Consultant Intermediate}} $|$ \emph{ \textbf{JDA Software  NKA Blue Yonder }\href{https://blueyonder.com/} \faExternalLinkSquare}}{Aug 2010 -- Mar 2015}     
+
+  \resumeProjectHeading
+{\titleItem{{Programmer Analyst}} $|$ \emph{ \textbf{Cognizant Technology Solutions }\href{https://www.cognizant.com/in/en} \faExternalLinkSquare}}{Feb 2009 -- Aug 2010}     
+  \resumeSubHeadingListEnd
+ \resumeProjectHeading
+
+
+
 % -------------------------------------
 %----------PROJECTS--------------------
 % -------------------------------------
@@ -132,7 +155,7 @@
    \resumeProjectHeading
        {\titleItem{Candescent FKA NCR Corporation  \href{https://www.candescent.com/} \faExternalLinkSquare} \emph{$|$ Spring Boot, JDK 17, Postgres, Redis}}{Sep 2020 - Present, Bengaluru}
     \resumeItemListStart
-       \resumeItem{Spearheaded an highly available, scalable cloud native microservices which got deployed to GKE and increased tps by 25\%.}
+       \resumeItem{Spearheaded an highly available, scalable cloud native microservices which got deployed to GKE with an increased tps by 25\%.}
       \resumeItem{Implemented dynamic front end react components with reusable code and added form preview functionality which increased customer satisfaction score by 25\%.}
       \resumeItem{Mentored scrum team of 4 developers to build new financial institution dynamic forms application and pushed the team towards building quality software by constructively pointing out opportunities to reduce complexity to write cleaner code and more effective tests. }
        
@@ -164,25 +187,6 @@ seamlessly from any channels.}
   \resumeSubHeadingListEnd
   
 % -------------------------------------
-%----------ORGANIZATIONS-----------
-% -------------------------------------
-% \section{Organizations}
-%    \resumeSubHeadingListStart
-%      \resumeProjectHeading
-%            {\titleItem{{Software Engineer 4/Lead Engineer}} 
-%            $|$ \emph{ \textbf{Candescent FKA NCR Corporation }\href{https://www.candescent.com/} \faExternalLinkSquare}}{Sep 2020 - Present}  
-        
-%     \resumeProjectHeading
-%            {\titleItem{{Senior Software Engineer}} $|$ \emph{ \textbf{Lowe's India }\href{https://lowes.co.in/} \faExternalLinkSquare}}{Mar 2015 -- Sep 2020}     
-
-%   \resumeProjectHeading
-%            {\titleItem{{Technical Consultant Intermediate}} $|$ \emph{ \textbf{JDA Software  NKA Blue Yonder }\href{https://blueyonder.com/} \faExternalLinkSquare}}{Aug 2010 -- Mar 2015}     
-
-%   \resumeProjectHeading
-% {\titleItem{{Programmer Analyst}} $|$ \emph{ \textbf{Cognizant Technology Solutions }\href{https://www.cognizant.com/in/en} \faExternalLinkSquare}}{Feb 2009 -- Aug 2010}     
-%   \resumeSubHeadingListEnd
-  
-% -------------------------------------
 %----------TECHNICAL SKILLS------------
 % -------------------------------------
 \section{Technical Skills}
@@ -202,7 +206,19 @@ seamlessly from any channels.}
     
  \end{itemize}
 
+% -------------------------------------
+%---------EDUCATION---------------------
+% -------------------------------------
 
+
+\section{Education}
+\resumeSubHeadingListStart
+    \item
+    \begin{tabular*}{0.97\textwidth}[t]{@{}l@{\extracolsep{\fill}}r}
+      \textbf{PES Institute of Technology, VTU, Bengaluru,  India} & \textit{May 2005 -- Aug 2008} \\
+          Bachelor of Engineering in Computer Science 
+    \end{tabular*}\vspace{-8pt}
+\resumeSubHeadingListEnd
 
 % -------------------------------------
 %----------PROJECTS--------------------
@@ -226,19 +242,7 @@ more details about customer to improve sales.}}{}
     
   \resumeSubHeadingListEnd
 
-% -------------------------------------
-%---------EDUCATION---------------------
-% -------------------------------------
 
-
-\section{Education}
-\resumeSubHeadingListStart
-    \item
-    \begin{tabular*}{0.97\textwidth}[t]{@{}l@{\extracolsep{\fill}}r}
-      \textbf{PES Institute of Technology, VTU, Bengaluru,  India} & \textit{May 2005 -- Aug 2008} \\
-          Bachelor of Engineering in Computer Science 
-    \end{tabular*}\vspace{-8pt}
-\resumeSubHeadingListEnd
 
 
 % -------------------------------------
