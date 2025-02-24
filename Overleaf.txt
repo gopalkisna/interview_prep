@@ -153,7 +153,7 @@
 \section{Work Experience}    
 \resumeSubHeadingListStart
    \resumeProjectHeading
-       {\titleItem{Candescent FKA NCR Corporation  \href{https://www.candescent.com/} \faExternalLinkSquare} \emph{$|$ Spring Boot, JDK 17, Postgres, Redis}}{Sep 2020 - Present, Bengaluru}\\
+       {\titleItem{Candescent FKA NCR Corporation  \href{https://www.candescent.com/} \faExternalLinkSquare} \emph{$|$ Spring Boot, JDK 17, React, Postgres, Redis}}{Sep 2020 - Present, Bengaluru}\\
      {\resumeItem{{Software Engineer 4/Lead Engineer}} }  
     \resumeItemListStart
        \resumeItem{Spearheaded an highly available, scalable cloud native microservices which got deployed to GKE with an increased tps by 25\%.}
