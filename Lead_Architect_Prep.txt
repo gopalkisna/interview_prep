@@ -1,0 +1,267 @@
+Java Fundamentals
+1. 4 Pillars of OOP
+2. Procedural vs OOPs Programming
+3. JDK vs JRE vs JVM
+4. Classes & Objects
+5. Variables & Data Types
+6. String Pool & Immutability
+7. Access Specifiers
+8. Type Casting
+9. Method Overloading vs Overriding
+10. Pass by Value vs Pass by Reference
+11. Garbage Collection
+12. Constructors & Destructors
+13. Operators & Expressions
+14. Control Flow Statements
+
+Advanced Java 
+    1.  OOPS Concepts - Encapsulation, Inheritance, Polymorphism, Abstraction
+    2.  JIT compiler
+    3.  String constant pool and heap portion
+    4.  Shallow copy vs deep copy
+    5.  Exception Handling - checked and unchecked exceptions
+    6.  Threads, Threads Pool, race condition, deadlock, live lock
+    7.  JDBC
+    8.  Access modifiers
+    9.  ConcurrentHashMap
+    10. HashMap vs Hashset, custom hashmap, hashset etc.,
+    11. equals and hashcode contract
+    12. JVM
+    13. Serializable vs Externalizable
+    14. Inner class
+    15. Generics
+    16. Cloneable, Marker interface
+    17. Immutable class and Custom Immutable class
+    18. Wrapper class
+    19. Ways to loop Hashmap
+    20. Multithreading, Multiprogramming, Multiprocessing
+    21. Mutex, Semaphores
+    22. Comparator vs Comparable
+    23. Java Memory model  
+    24. Collection Framework
+    25. Fail safe vs fail fast
+    26. Runnable vs Callable
+    27. JVM Internals
+    28. StringBuilder vs StringBuffer
+
+Java 8
+-----------------------------------------------------------------
+1. Java Brains
+2. Streams
+3. Lambdas
+4. Default, static 
+5. Functional Interfaces
+6. Optional
+7. Streams tricky questions
+
+Spring Boot Basics to Advanced
+
+1. Spring Boot Fundamentals
+2. REST APIs & Microservices 
+3. Spring Data  JPA & Hibernate
+4. Spring Security & JWT
+5. Circuit Breaker (Resilience4J, Hystrix)
+6. Spring Cloud for Microservices
+7. Kafka Integration
+8. Docker & Kubernetes with Spring Boot
+
+
+Spring core
+-----------------------------------------------------------------
+
+
+Spring MVC
+-----------------------------------------------------------------
+    1. Bean scope
+    2. Bean life cycle
+
+Hibernate/Spring Data JPA
+-----------------------------------------------------------------
+    1. Lazy loading
+    2. N+1 select problem
+    3. Caching strategies
+
+Microservices Design Patterns
+-----------------------------------------------------------------
+1. API gateway
+2. Circuit Breaker
+3. Saga 
+4. Event Sourcing
+5. Service Registry
+
+Low Level Design
+
+Design Principles and Patterns
+
+1. SOLID/KISS Principles 
+2. Strategy Design Pattern
+3. Observer Pattern
+4. Decorator Pattern
+5. Factory Pattern
+6. Abstract Factory Pattern
+7. Proxy Design Pattern
+8. Null Object Pattern
+9. Adapter Design Pattern
+10 Builder Design Pattern
+11. Facade Design Pattern
+12. Bridge Design Pattern
+13. Flyweight Design Pattern
+14. Command Design Pattern
+15. Iterator Design Pattern
+16. Mediator Design Pattern
+17. Visitor Design Pattern
+18. Memento Design Pattern
+19. MVC Design Pattern
+20. Chain of Responsibility Pattern
+
+Real World LLD System Design
+1. Parking Lot
+2. Snake and Ladder
+3. Elevator System
+4. Car Rental System
+5. Logging System
+6. Tic-Tac-Toe
+7. BookMyShow
+8. Vending Machine
+9. ATM Machine
+10. Chess Game
+11. File System
+12. Splitwise (+ Simplification Algorithm)
+13. Cricbuzz
+14. Zepto
+15. Apply Coupon Code System
+16. Payment Gateway System
+17. Object Pool Design Pattern
+
+High-Level Design (HLD)
+
+
+Core System Design Concepts 
+1. Network Protocols
+2. CAP Theorem 
+3. Microservices Design Patterns
+4. Scaling from 0 to Millions of Users
+5. Consistent Hashing 
+6. Back-of-the-Envelope Estimation
+
+Real World HLD System Designs
+
+1. URL Shortnener ---- System Design  Book By Alex Xu
+2. Youtube functionality
+3. News feed --- System Design  Book By Alex Xu
+4. Twitter design
+5. Design a chat system (Whatsapp, FB Messenger) ---- codeKarle Youtube
+6. Notification system ---- codeKarle Youtube
+7. Design google drive
+8. Design ecommerce
+9. Design Twitter
+10.Design Instagram
+11. Zoom Video callign system
+12. Rate Limiter
+
+Distributed Systems and Security
+1. Proxy vs Reverse Proxy
+2. Load Balancers & Algorithms
+3. Distributed Caching
+4. Distributed Transactions
+5. Database Indexing
+6. Distributed Concurrency Control
+7. Distributed Locking
+8. OAuth 2.0
+9. Symmetric vs Asymmetric Encryption
+10. JWT 
+11. API Gateway
+12. Microservices Architecture
+13. Service Mesh
+14. DNS
+
+
+sql vs no-sql
+------------------------------------
+    1. ACID properties
+    2. Isolation levels
+    3. CAP theorem
+    4. Clustered vs Non-Clusteres Indexes
+
+
+Algos and DS
+-------------------------------------
+DS/Algos:
+    1. Binary Search
+    2. BFS/DFS, Backtracking
+        https://www.youtube.com/watch?v=vKQ6oUH02gw&pp=ygUec3RyaW5nIHBlcm11dGF0aW9uIGluIGphdmEgdHVm - String Permutation
+        https://www.youtube.com/watch?v=YK78FU5Ffjw -- TUF/Striver
+    3. Binary Trees
+    4. Arrays
+    5. Monotonic Stack
+    6. Sliding Window
+    7. Prefix Sum
+    8. 2 Pointers
+
+Docker/GKE
+-----------
+
+
+
+System Design Key Concepts
+------------------
+1. Scalability
+2. Availability
+3. CAP Theorem
+4. ACID Transactions
+5. Consistent Hashing
+6. Rate Limiting
+7. SPOF
+8. Fault Tolerance
+9. Consensus Algorithms
+10. Gossip Protocol
+11. Service Discovery
+12. API Design
+13. Disaster Recovery
+14. Distributed Tracing
+
+
+1. Content Delivery Network (CDN)
+2. Proxy vs Reverse Proxy
+3. Domain Name System (DNS)
+4. Caching
+5. Caching Strategies
+6. Distributed Caching
+7. Load Balancing
+8. Databases Types
+9. SQL vs NoSQL
+10. Database Indexes
+11. Consistency Patterns
+12. HeartBeats
+13. Circuit Breaker
+14. Idempotency
+15. Database Scaling
+16. Data Replication
+17. Data Redundancy
+18. Database Sharding
+19. Database Architectures
+20. Failover
+21. Bloom Filters
+22. Message Queues
+23. WebSockets
+24. Checksums
+25. API Gateway
+26. Microservices Guidelines
+27. Distributed Locking
+
+
+System Design Tradeoffs
+---------------------
+1. Top 15 Tradeoffs
+2. Vertical vs Horizontal Scaling
+3. Stateful vs Stateless Design
+4. Batch vs Stream Processing
+5. Strong vs Eventual Consistency
+6. Read-Through vs Write-Through Cache
+7. Push vs Pull Architecture
+8. Long-polling vs WebSockets
+9. REST vs RPC
+10. Synchronous vs. asynchronous communications
+11. Latency vs Throughput
+12. Sharding vs Partitioning
+13. Clustered vs Non-clustered index    
