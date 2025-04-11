@@ -14,35 +14,89 @@ Java Fundamentals
 13. Operators & Expressions
 14. Control Flow Statements
 
+
+🔸 What’s the difference between JDK, JRE, and JVM?
+🔸 Why is Java considered platform-independent?
+🔸 Difference between an abstract class and an interface?
+🔸 What’s the role of final, finally, and finalize in Java?
+🔸 Stack vs. heap memory, what’s the difference?
+🔸 Method overloading vs. method overriding?
+🔸 Difference between private and protected access modifiers?
+🔸 What’s constructor overloading in Java?
+🔸 Purpose of the super keyword in Java?
+🔸 What’s the purpose of static blocks in Java?
+🔸 What is the use of the this keyword in constructors?
+🔸 What are the Object-Oriented features supported by Java?
+🔸 Access specifiers in Java, what are the differences?
+🔸 Difference between composition and inheritance?
+🔸 What is the purpose of an abstract class?
+🔸 Difference between a constructor and a method in Java?
+🔸 Explain the diamond problem in Java and its solution.
+🔸 Local vs. instance variables, what’s the difference?
+🔸 What is a Marker interface in Java?
+🔸 How does Java achieve polymorphism?
+🔸 Explain encapsulation with a real-life example.
+🔸 Why are Strings immutable in Java?
+🔸 Difference between creating Strings using new() vs. literals?
+🔸 What is the Collections framework?
+🔸 ArrayList vs. LinkedList, key differences?
+🔸 HashMap vs. TreeMap, when to use each?
+🔸 HashSet vs. TreeSet, what’s the difference?
+🔸 Iterator vs. ListIterator, how do they differ?
+🔸 What’s the role of the Comparable interface?
+🔸 What’s the difference between Collections and Collection?
+🔸 Why use the java.util.concurrent package?
+🔸 What is an exception in Java?
+🔸 How does exception propagation work?
+🔸 Checked vs. unchecked exceptions, what’s the difference?
+🔸 Purpose of a try-catch block in Java?
+🔸 Difference between throw and throws?
+🔸 Why use a finally block?
+🔸 What’s the base class of all exception classes?
+🔸 How is a custom exception created in Java?
+🔸 What happens if an exception is not caught?
+🔸 How do you rethrow exceptions in Java?
+🔸 What is a thread, and what are the stages of its lifecycle?
+🔸 Difference between a process and a thread?
+🔸 Types of thread priorities in Java?
+🔸 What is context switching in threads?
+🔸 User threads vs. daemon threads, how do they differ?
+🔸 Purpose of synchronization in Java?
+🔸 What is a deadlock? How can it be avoided?
+🔸 Use of wait() and notify() methods in threads?
+🔸 Synchronized vs. volatile in Java?
+🔸 Difference between notify() and notifyAll()?
+
+
 Advanced Java 
-    1.  OOPS Concepts - Encapsulation, Inheritance, Polymorphism, Abstraction
-    2.  JIT compiler
-    3.  String constant pool and heap portion
-    4.  Shallow copy vs deep copy
-    5.  Exception Handling - checked and unchecked exceptions
-    6.  Threads, Threads Pool, race condition, deadlock, live lock
-    7.  JDBC
-    8.  Access modifiers
-    9.  ConcurrentHashMap
-    10. HashMap vs Hashset, custom hashmap, hashset etc.,
-    11. equals and hashcode contract
-    12. JVM
-    13. Serializable vs Externalizable
-    14. Inner class
-    15. Generics
-    16. Cloneable, Marker interface
-    17. Immutable class and Custom Immutable class
-    18. Wrapper class
-    19. Ways to loop Hashmap
-    20. Multithreading, Multiprogramming, Multiprocessing
-    21. Mutex, Semaphores
-    22. Comparator vs Comparable
-    23. Java Memory model  
-    24. Collection Framework
-    25. Fail safe vs fail fast
-    26. Runnable vs Callable
-    27. JVM Internals
-    28. StringBuilder vs StringBuffer
+1.  OOPS Concepts - Encapsulation, Inheritance, Polymorphism, Abstraction
+2.  JIT compiler
+3.  String constant pool and heap portion
+4.  Shallow copy vs deep copy
+5.  Exception Handling - checked and unchecked exceptions
+6.  Threads, Threads Pool, race condition, deadlock, live lock
+7.  JDBC
+8.  Access modifiers
+9.  ConcurrentHashMap
+10. HashMap vs Hashset, custom hashmap, hashset etc.,
+11. equals and hashcode contract
+12. JVM
+13. Serializable vs Externalizable
+14. Inner class
+15. Generics
+16. Cloneable, Marker interface
+17. Immutable class and Custom Immutable class
+18. Wrapper class
+19. Ways to loop Hashmap
+20. Multithreading, Multiprogramming, Multiprocessing
+21. Mutex, Semaphores
+22. Comparator vs Comparable
+23. Java Memory model  
+24. Collection Framework
+25. Fail safe vs fail fast
+26. Runnable vs Callable
+27. JVM Internals
+28. StringBuilder vs StringBuffer    
 
 Java 8
 -----------------------------------------------------------------
@@ -91,9 +145,9 @@ Microservices Design Patterns
 
 Low Level Design
 
-Design Principles and Patterns
+Design Principles and Patterns --- https://howtodoinjava.com/gang-of-four-java-design-patterns/
 
-1. SOLID/KISS Principles 
+1. SOLID/KISS Principles --- https://www.youtube.com/watch?v=kF7rQmSRlq0
 2. Strategy Design Pattern
 3. Observer Pattern
 4. Decorator Pattern
@@ -178,25 +232,25 @@ Distributed Systems and Security
 
 sql vs no-sql
 ------------------------------------
-    1. ACID properties
-    2. Isolation levels
-    3. CAP theorem
-    4. Clustered vs Non-Clusteres Indexes
-
+1. ACID properties
+2. Isolation levels
+3. CAP theorem
+4. Clustered vs Non-Clusteres Indexes
+5. 2PC vs 3PC
 
 Algos and DS
 -------------------------------------
 DS/Algos:
-    1. Binary Search
-    2. BFS/DFS, Backtracking
-        https://www.youtube.com/watch?v=vKQ6oUH02gw&pp=ygUec3RyaW5nIHBlcm11dGF0aW9uIGluIGphdmEgdHVm - String Permutation
-        https://www.youtube.com/watch?v=YK78FU5Ffjw -- TUF/Striver
-    3. Binary Trees
-    4. Arrays
-    5. Monotonic Stack
-    6. Sliding Window
-    7. Prefix Sum
-    8. 2 Pointers
+1. Binary Search
+2. BFS/DFS, Backtracking
+    https://www.youtube.com/watch?v=vKQ6oUH02gw&pp=ygUec3RyaW5nIHBlcm11dGF0aW9uIGluIGphdmEgdHVm - String Permutation
+    https://www.youtube.com/watch?v=YK78FU5Ffjw -- TUF/Striver
+3. Binary Trees
+4. Arrays
+5. Monotonic Stack
+6. Sliding Window
+7. Prefix Sum
+8. 2 Pointers
 
 Docker/GKE
 -----------
@@ -265,3 +319,16 @@ System Design Tradeoffs
 11. Latency vs Throughput
 12. Sharding vs Partitioning
 13. Clustered vs Non-clustered index    
+
+
+Aptitude
+1. Average
+2. Percentage
+3. Train
+4. Direction
+5. Permutation vs Combination
+6. Probability
+7. Relationship
+
+
+https://www.vitaely.me/gopalakrishna.ramu 
